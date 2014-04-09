@@ -340,7 +340,7 @@ body {
     width: 260px;
     height: 260px;
 }
-.teamName{
+.teamName,.servicesName{
     font-weight: bolder;
     font-size: 22px;
     margin: 25px 0 21px 0;
@@ -425,4 +425,41 @@ body {
 }
 .step-9{
     background-position: -1034px 0;
+}
+.roundPhoto{
+    width: 200px;
+    height: 200px;
+    margin: 0 30px 0 0 ;
+    background: url(img/round_preview.png) 0 0 no-repeat;
+}
+.roundPhoto-1{
+    background-position: 0 0;
+}
+.roundPhoto-2{
+    background-position: -200px 0;
+}
+.roundPhoto-3{
+    background-position:0 -200px;
+}
+.roundPhoto-4{
+    background-position: -200px -200px;
+}
+.roundPhoto-5{
+    background-position: 0 -400px;
+}
+.roundPhoto-6{
+    background-position: -200px -400px;
+}
+.roundPhoto-7{
+    background-position: -600px 0;
+}
+.roundPhoto-8{
+    background-position: -600px -200px;
+}
+
+.servicesCell{
+    width: 558px;
+}
+.servicesText{
+    width: 325px;
 }
