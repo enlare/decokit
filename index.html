@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="shortcut icon" type="image/png" href="favicon.ico"/>-->
         <title>DecoKit</title>
-
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link href="css/style.css" rel="stylesheet">
+
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -15,7 +16,7 @@
     </head>
     <body>
         <div id="wrap">
-            <div class="header">
+            <div class="header container">
                 <ul class="socialLinks">
                     <li>
                         <a href="#" class="vk">
@@ -30,27 +31,58 @@
                         </a>
                     </li>
                 </ul>
-                <a href="/">
-                    <img src="css/img/logo.jpg"  alt="logo"/>
-                </a>
+                <div class="logoWrapper">
+                    <div class="logoText left">
+                        <span>Студия декора и флористики в Санкт-Петербурге</span>
+                    </div>
+                    <div class="logoImg left">
+                        <img src="css/img/logo.jpg"  alt="logo"/>
+                    </div>
+                    <div class="logoText left">
+                        <span>Тематическое оформление свадеб и торжеств</span>
+                    </div>
+                </div>
                 <div class="phoneWrapper">
                     <a href="tel:8(812)9515963">
                         8 (812) 951-59-63
                     </a>
                     <div class="phoneSmallText">
-                        Ежедневно с 10 до 22
+                        Ежедневно с 10:00 до 22:00
                     </div>
 
                 </div>
             </div>
-            <div class="topPhohoWrapper">
+            <div class="topPhohoWrapper container">
                 <div class="topPhoho">
+                    <div class="topPhoho-text">
+                        Мы сами создаём свои уникальные и не похожие на других свадьбы
+                    </div>
+                    <div class="pinkFormTop">
+                        <div class="pinkFormTop-text">Узнай, что мы можем сделать для тебя:</div>
+                    </div>
                 </div>
-                <div class="detailForm">
-
-                </div>
+                <form class="detailForm">
+                    <input type="text" placeholder="Имя" value="" name="" class="input">
+                    <input type="text" placeholder="Телефон" value="" name="" class="input">
+                    <input type="text" placeholder="E-mail" value="" name="" class="input input-smallMargin">
+                    <button type="button" class="yellowBtn">Узнать детали</button>
+                </form>
+                <!--</div>-->
             </div>
 
+            <div class="workWithLove container">
+                <div class="workWithLove-headerText">
+                    Работаем с любовью
+                </div>
+                <div class="borderedHeader workWithLove-header"></div>
+                <div class="workWithLove-row">
+                    <div class="workWithLove-cell">
+                        <div class="workWithLove-icon workWithLove-dilivery"></div>
+                        <div class="workWithLove-text"></div>
+                    </div>
+                </div>
+                <div class="workWithLove-row"></div>
+            </div>
 
             <div id="push">
 

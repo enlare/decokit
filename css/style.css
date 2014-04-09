@@ -1,6 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 html,
 body {
     height: 100%;
+
 }
 html {
     position: relative;
@@ -8,13 +13,16 @@ html {
 body {
     background: #fff;
     font-size: 16px;
+    min-width: 1260px;
+    font-family: 'PT Serif', serif;
 }
 
 #wrap {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -2040px;
+    margin: 0 auto -204px;
+
 }
 #push,
 #footer {
@@ -26,10 +34,234 @@ body {
     font-size: 14px;
     background: #f4436d;
 }
-
+.container{
+    width: 1170px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
 .topPhoho{
-    background: url(img/top_photo) 0 0 no-repeat;
+    background: url(img/top_photo.jpg) 0 0 no-repeat;
     width: 1170px;
     height: 485px;
     margin: 0 auto;
+    color: #fff;
+    font-style: italic;
+    font-weight: bolder;
+
+    position: relative;
+}
+.topPhoho .topPhoho-text{
+    /*position: absolute*/
+    display: inline-block;
+    /*margin: 20px auto 0;*/
+    width: 750px;
+    position: absolute;
+    top: 146px;
+    left: 221px;
+    font-size: 45px;
+}
+.pinkFormTop{
+    background: #f4436d;
+    height: 34px;
+    position: absolute;
+    bottom: 0;
+    width: 650px;
+    left: 260px;
+    line-height: 34px;
+    font-size: 30px;
+}
+.pinkFormTop .pinkFormTop-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -8px;
+}
+.socialLinks{
+    position: absolute;
+    list-style: none;
+    left: 30px;
+    top: 45px;
+    padding: 0;
+    margin: 0;
+}
+.socialLinks li{
+    float: left;
+    margin-right: 7px;
+}
+.socialLinks a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('img/networks.png') 0 0 no-repeat;
+}
+.socialLinks .vk{
+    background-position:  0 0 ;
+}
+.socialLinks .lj{
+    background-position:  -41px 0;
+}
+.socialLinks .inst{
+    background-position:  -83px 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.detailForm{
+    height: 83px;
+    background: #f4436d;
+    padding: 0 44px
+}
+.detailForm .input{
+    outline: none;
+    border: 0;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 0px 10px;
+    height: 29px;
+    width: 216px;
+    margin: 30px 70px 0 0;
+}
+.detailForm .input-smallMargin{
+    margin: 30px 40px 0 0;
+}
+.logoWrapper{
+    font-style: italic;
+    position: absolute;
+    bottom: 23px;
+    /*line-height: 250px;*/
+    font-size: 26px;
+}
+.logoWrapper .logoText{
+    width: 426px;
+    display: block;
+    color: #333;
+}
+
+.logoWrapper .logoText span{
+    margin-top: 111px;
+    display: inline-block;
+}
+.logoWrapper .logoText:first-child span{
+    text-align: right;
+    margin-right: 50px;
+}
+.logoWrapper .logoText:last-child span{
+    text-align: left;
+    margin-left: 50px;
+}
+.logoWrapper .logoImg{
+    display: block;
+    /*width:*/ 
+}
+.header{
+    height: 300px;
+    position: relative;
+}
+.phoneWrapper{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.phoneWrapper a{
+    color: #333;
+    font-size: 22px;
+    background: url(img/phone.png) bottom left no-repeat;
+    padding-left: 34px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    height: 23px;
+    right: 30px;
+}
+.phoneWrapper .phoneSmallText{
+    color: #888888;
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+.yellowBtn{
+    padding: 6px 22px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #ebeb6d;
+    border-radius: 3px;
+    height: 36px;
+    /*font-weight: bolder;*/
+    font-family: 'PT Serif', serif;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    line-height: 17px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    line-height: 17px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    line-height: 17px;
+}
+
+:-ms-input-placeholder {  
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 17px;
+    color: #333;
+    line-height: 17px;
+}
+.borderedHeader{
+    background: url('img/headers_bottom.png') 0 0 no-repeat;
+    height: 10px;
+    margin: 0 auto;
+}
+.workWithLove-header{
+    width: 150px;
+    background-position-x: 0;
+    background-position-y: -40px;
+    margin: 0 auto 35px auto;
+}
+.workWithLove-headerText{
+    margin: 73px auto 5px auto;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+.workWithLove-row{
+    /*margin-bottom: 30px;*/
+    height: 176px;
+}
+.workWithLove-cell{
+    width: 180px;
+    height: 123px;
+    float: left;
+}
+.workWithLove-icon{
+    background: url(img/services.png) 0 0;
+    width: 70px;
+    height: 70px;
+}
+.workWithLove-dilivery{
+    background-position:  0 0;
 }
