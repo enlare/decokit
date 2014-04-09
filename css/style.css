@@ -295,6 +295,134 @@ body {
     background-position:  -295px -70px;
 }
 .pinkFormGift{
-    background: #f4436d;
+    /*background: #f4436d;*/
     height: 310px;
+    background: url(img/gift_photo.jpg) top center #f4436d no-repeat;
+    width: 100%;
+}
+.pinkFormGift:after{
+    clear: both;
+}
+.giftTextWrapper{
+    width: 370px;
+}
+.bigText{
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    margin: 39px auto 26px auto;
+    width: 265px;
+    text-align: center;
+}
+.smallText{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.teamConainer{
+    height: 590px;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+.teamColumn{
+    width: 270px;
+}
+.teamConainer .teamColumn{
+    margin-right: 140px;
+}
+.teamConainer .teamColumn:last-child{
+    margin-right: 0px;
+}
+.teamPhoto{
+    background: url(img/team.png) 0 0 no-repeat;
+    width: 260px;
+    height: 260px;
+}
+.teamName{
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 25px 0 21px 0;
+}
+.photo-Marta{
+
+}
+.photo-Olga{
+    background-position: -273px 0;
+}
+.photo-Juno{
+    background-position: -545px 0;
+}
+.teamText{
+    font-size: 16px;
+}
+
+.stepsWrapper{
+    height: 200px;
+}
+.stepsCell{
+    width: 128px;
+    height: 200px;
+}
+.stepsIcon{
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    background: url(img/works_steps.png) 0 0 no-repeat;
+}
+.circle{
+    background: #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 25px auto;
+    z-index: 112;
+    position: relative;
+}
+.circle:hover{
+    background: #999;
+}
+.stepsText{
+    text-align: center;
+    font-size: 13px;
+}
+.stepsWrapper{
+    position: relative;
+}
+.line{
+    height: 1px;
+    width: 1020px;
+    position: absolute;
+    z-index: 11;
+    left: 64px;
+    top: 97px;
+    background: #000;
+}
+.step-1{
+    background-position: 5px 0;
+}
+.step-2{
+    background-position: -125px 0;
+}
+.step-3{
+    background-position: -255px 0;
+}
+.step-4{
+    background-position: -380px 0;
+}
+.step-5{
+    background-position: -514px 0;
+}
+.step-6{
+    background-position: -646px 0;
+}
+.step-7{
+    background-position: -773px 0;
+}
+.step-8{
+    background-position: -908px 0;
+}
+.step-9{
+    background-position: -1034px 0;
 }
