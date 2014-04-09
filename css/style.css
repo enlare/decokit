@@ -253,15 +253,48 @@ body {
     height: 176px;
 }
 .workWithLove-cell{
-    width: 180px;
+    width: 220px;
     height: 123px;
     float: left;
+    text-align: center;
+}
+.workWithLove-row .workWithLove-cell{
+    margin-right: 94px;
+}
+.workWithLove-row .workWithLove-cell:last-child{
+    margin-right: 0;
 }
 .workWithLove-icon{
     background: url(img/services.png) 0 0;
     width: 70px;
     height: 70px;
+    margin: 0 auto;
 }
 .workWithLove-dilivery{
     background-position:  0 0;
+}
+.workWithLove-place{
+    background-position:  -106px 0;
+}
+.workWithLove-week{
+    background-position:  -206px 0;
+}
+.workWithLove-world{
+    background-position:  -295px 0;
+}
+.workWithLove-sketch{
+    background-position:  0 -70px;
+}
+.workWithLove-docs{
+    background-position:  -106px -70px;
+}
+.workWithLove-flowers{
+    background-position: -206px -70px;
+}
+.workWithLove-time{
+    background-position:  -295px -70px;
+}
+.pinkFormGift{
+    background: #f4436d;
+    height: 310px;
 }
