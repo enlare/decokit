@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    position: relative;
+}
+body {
+    background: #fff;
+    font-size: 16px;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -2040px;
+}
+#push,
+#footer {
+    height:204px;
+}
+#footer {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    background: #f4436d;
+}
+
+.topPhoho{
+    background: url(img/top_photo) 0 0 no-repeat;
+    width: 1170px;
+    height: 485px;
+    margin: 0 auto;
+}
