@@ -241,17 +241,53 @@ body {
     background-position-y: -40px;
     margin: 0 auto 35px auto;
 }
-.workWithLove-headerText{
+.headerText{
     margin: 73px auto 5px auto;
     font-size: 26px;
     font-weight: bold;
     font-family: 'PT Serif', serif;
     text-align: center;
+    position: relative;
+    border-bottom: 1px solid #000;
+    height: 30px;
+    line-height: 30px;
+    text-align:  center;
+    width: auto;
+    display: inline-block;
+    height: 40px;
+}
+.heart{
+    background: url(img/heart_gift.jpg) 0 -17px no-repeat;
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    bottom: -8px;
+    display: inline-block;
+    left: 44%;
+}
+.gift{
+    background-position:  0 0;
+}
+.headerTextWrapper{
+    text-align: center;
+}
+.giftsConainer-headerText{
+    margin-bottom: 60px;
+}
+.servicesWraper-headerText{
+       margin-bottom: 60px;
+}
+.steps-headerText{
+    margin-bottom: 60px;
+}
+.feedbackWraper-headerText{
+     margin-bottom: 60px;
 }
 .workWithLove-row{
     /*margin-bottom: 30px;*/
     height: 176px;
 }
+
 .workWithLove-cell{
     width: 220px;
     height: 123px;
