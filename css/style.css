@@ -52,14 +52,12 @@ body {
     position: relative;
 }
 .topPhoho .topPhoho-text{
-    /*position: absolute*/
     display: inline-block;
-    /*margin: 20px auto 0;*/
-    width: 750px;
+    width: 765px;
     position: absolute;
-    top: 146px;
+    top: 190px;
     left: 221px;
-    font-size: 45px;
+    font-size: 46px;
 }
 .pinkFormTop{
     background: #f4436d;
@@ -113,7 +111,7 @@ body {
 .detailForm{
     height: 83px;
     background: #f4436d;
-    padding: 0 44px
+    padding: 0 40px
 }
 .detailForm .input{
     outline: none;
@@ -127,14 +125,14 @@ body {
     margin: 30px 70px 0 0;
 }
 .detailForm .input-smallMargin{
-    margin: 30px 40px 0 0;
+    margin: 30px 48px 0 0;
 }
 .logoWrapper{
     font-style: italic;
     position: absolute;
     bottom: 23px;
     /*line-height: 250px;*/
-    font-size: 26px;
+    font-size: 22px;
 }
 .logoWrapper .logoText{
     width: 426px;
@@ -148,11 +146,11 @@ body {
 }
 .logoWrapper .logoText:first-child span{
     text-align: right;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 .logoWrapper .logoText:last-child span{
     text-align: left;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .logoWrapper .logoImg{
     display: block;
@@ -165,7 +163,7 @@ body {
 .phoneWrapper{
     position: absolute;
     right: 30px;
-    top: 50px;
+    top: 45px;
 }
 .phoneWrapper a{
     color: #333;
@@ -197,6 +195,11 @@ body {
     height: 36px;
     /*font-weight: bolder;*/
     font-family: 'PT Serif', serif;
+}
+.yellowBtn:focus,
+.yellowBtn:active,
+.yellowBtn:hover{
+    background: #ffe100;
 }
 
 ::-webkit-input-placeholder {
@@ -230,11 +233,7 @@ body {
     color: #333;
     line-height: 17px;
 }
-.borderedHeader{
-    background: url('img/headers_bottom.png') 0 0 no-repeat;
-    height: 10px;
-    margin: 0 auto;
-}
+
 .workWithLove-header{
     width: 150px;
     background-position-x: 0;
@@ -242,19 +241,20 @@ body {
     margin: 0 auto 35px auto;
 }
 .headerText{
-    margin: 73px auto 5px auto;
+    margin: 65px auto 0px auto;
     font-size: 26px;
     font-weight: bold;
     font-family: 'PT Serif', serif;
     text-align: center;
     position: relative;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #333;
     height: 30px;
     line-height: 30px;
     text-align:  center;
     width: auto;
     display: inline-block;
-    height: 40px;
+    height: 45px;
+    color: #333;
 }
 .heart{
     background: url(img/heart_gift.jpg) 0 -17px no-repeat;
@@ -272,21 +272,25 @@ body {
     text-align: center;
 }
 .giftsConainer-headerText{
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 .servicesWraper-headerText{
-       margin-bottom: 60px;
+    margin-bottom: 60px;
+    margin-top: 80px;
 }
 .steps-headerText{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .feedbackWraper-headerText{
-     margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-.workWithLove-row{
-    /*margin-bottom: 30px;*/
+.workWithLove .workWithLove-row{
     height: 176px;
 }
+.workWithLove .workWithLove-row:last-child{
+    height: 140px;
+}
+
 
 .workWithLove-cell{
     width: 220px;
@@ -331,38 +335,110 @@ body {
     background-position:  -295px -70px;
 }
 .pinkFormGift{
-    /*background: #f4436d;*/
     height: 310px;
     background: url(img/gift_photo.jpg) top center #f4436d no-repeat;
     width: 100%;
 }
 .pinkFormGift:after,
 .servicesWrapper:after,
-.container:after{
+.container:after,
+.giftFormRow:after{
     clear: both;
+}
+
+
+.pinkFormGift .giftFormWrapper{
+    width: 300px;
+    margin: 35px 36px 0 0;
+}
+.pinkFormGift .giftFormWrapper .bigText{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 .giftTextWrapper{
     width: 370px;
 }
-.bigText{
+.giftTextWrapper .bigText{
     font-style: italic;
     font-weight: bold;
     color: #fff;
     font-size: 36px;
-    margin: 39px auto 26px auto;
-    width: 265px;
+    margin: 29px auto 20px auto;
+    width: 275px;
     text-align: center;
 }
 .smallText{
     font-size: 16px;
     color: #fff;
     text-align: center;
+    margin: 0 auto;
+}
+.giftFormRow{
+    margin: 20px 0 0 0;
+}
+.giftFormWrapper .giftFormRow{
+    overflow: hidden;
+}
+.giftFormWrapper .giftFormRow:last-child{
+    margin: 20px 0 15px 0;
+}
+.giftFormWrapper .giftFormLabel{
+    width: 75px;
+    padding: 0 5px 0 0;
+    text-align: right;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+}
+.giftFormWrapper .input{
+    outline: none;
+    border: 0;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0px 3px;
+    height: 20px;
+    width: 210px;
 }
 
+.giftFormWrapper .input::-webkit-input-placeholder {
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    /*color: #333;*/
+    /*line-height: 17px;*/
+}
+
+.giftFormWrapper .input:-moz-placeholder { /* Firefox 18- */
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.giftFormWrapper .input::-moz-placeholder {  /* Firefox 19+ */
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.giftFormWrapper .input:-ms-input-placeholder {  
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
 .teamConainer{
-    height: 590px;
+    height: 525px;
     margin-top: 50px;
     padding: 0 40px;
+    color: #333;
 }
 .teamColumn{
     width: 270px;
@@ -494,9 +570,13 @@ body {
 .roundPhoto-8{
     background-position: -591px -202px;
 }
+
 .servicesRow{
     height: 197px;
     margin-bottom: 50px;
+}
+.servicesWrapper .servicesRow:last-child{
+    margin-bottom: 0;
 }
 .servicesCell{
     width: 558px;
@@ -613,4 +693,16 @@ body {
     float: left;
     font-style: normal;
 
+}
+.workWithLove .headerTextWrapper{
+    margin-bottom: 50px;
+}
+.workWithLove-text{
+    color: #333;
+}
+.workWithLove-text:hover{
+    color: #000;
+}
+.team-headerText{
+    margin-top: 80px;
 }
