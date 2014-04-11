@@ -193,7 +193,6 @@ body {
     background: #ebeb6d;
     border-radius: 3px;
     height: 36px;
-    /*font-weight: bolder;*/
     font-family: 'PT Serif', serif;
 }
 .yellowBtn:focus,
@@ -408,8 +407,6 @@ body {
     text-align: left;
     font-size: 14px;
     line-height: 16px;
-    /*color: #333;*/
-    /*line-height: 17px;*/
 }
 
 .giftFormWrapper .input:-moz-placeholder { /* Firefox 18- */
